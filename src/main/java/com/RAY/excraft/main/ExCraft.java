@@ -15,7 +15,10 @@ public class ExCraft {
     // コンストラクタ
     public ExCraft(){
         IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+
+        // タブの登録
         ExCraftTabs.MOD_TABS.register(bus);
+        // アイテム群の登録
         ExCraftItems.MOD_ITEMS.register(bus);
     }
 }
