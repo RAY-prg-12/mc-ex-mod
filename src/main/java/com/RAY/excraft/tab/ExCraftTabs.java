@@ -8,11 +8,10 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
 import net.minecraftforge.registries.DeferredRegister;
-import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 
-public class ExMODTabs {
-    //
+public class ExCraftTabs {
+    // クリエイティブタブの親…？
     public static final DeferredRegister<CreativeModeTab> MOD_TABS = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, ExCraft.MOD_ID);
     public static final RegistryObject<CreativeModeTab> EX_MATERIAL = MOD_TABS.register("ex_material",
             ()->{
